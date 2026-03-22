@@ -25,7 +25,7 @@
 git clone <repository-url>
 cd avito-api-tests
 ```
-2. Создание виртуального окружения (рекомендуется)
+2. Создание виртуального окружения
 ``` bash
 # Windows
 python -m venv venv
@@ -43,13 +43,7 @@ pip install -r requirements.txt
 ```bash
 pytest --version
 ```
-5. Запуск тестов
-Запуск всех тестов
+5. Запуск всех тестов
 ``` bash
 pytest -v
-```
-Запуск с подробным выводом
-``` bash
-bash
-pytest -v -s
 ```
